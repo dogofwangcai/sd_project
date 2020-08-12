@@ -1,38 +1,99 @@
-.header{
-	background: #242629;
-	height: 99px;
-	border: 1px solid  #242629;
-} 
-.header-wrap{
-	width: 1200px;
-	height: 100%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.header {
+  background: #242629;
+  height: 99px;
+  border: 1px solid #242629;
+}
+.header-wrap {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-wrap .header-left {
-	display: flex;
-
+  display: flex;
 }
-.header-wrap .header-left img.logo1{
-	display: block;
-	width: 44px;
-	height: 54px;
+.header-wrap .header-left img.logo1 {
+  display: block;
+  width: 44px;
+  height: 54px;
+  margin-right: 13px;
 }
-.header-wrap .header-left img.logo2{
-	display: block;
-	width: 127px;
-	height: 24px;
+.header-wrap .header-left img.logo2 {
+  display: block;
+  width: 127px;
+  height: 24px;
 }
-.header-wrap .header-left>div>span{
-	margin-top: 4px;
-	color:#fff;
-	font-size: 14px;
+.header-wrap .header-left > div > span {
+  margin-top: 4px;
+  color: #fff;
+  font-size: 14px;
+  display: block;
 }
 .header-right {
-	display: flex;
+  display: flex;
+  align-items: center;
 }
-.header-right ul li{
-	display: block;
+.header-right ul li {
+  display: inline-block;
+}
+.header-right ul li a {
+  color: #fff;
+  padding: 10px 15px;
+}
+.header-right .search-wrap {
+  width: 190px;
+  height: 42px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #585d64;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.header-right .search-wrap input {
+  outline: none;
+  border: none;
+  width: 120px;
+  background: none;
+  color: #fff;
+  font-size: 14px;
+}
+.header-right .search-wrap img {
+  width: 21px;
+  height: 22px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.header-right .unlogin a {
+  font-size: 14px;
+  color: #fff;
+}
+.body {
+  min-height: 500px;
+}
+.footer .link {
+  background: #eaeef3;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  text-align: center;
+}
+.footer .link a {
+  margin: 0 10px;
+}
+.footer .footer-wrap {
+  padding-top: 32px;
+  background: #313438;
+  font-size: 14px;
+  color: #fff;
+  height: 165px;
+}
+.footer .footer-wrap > div {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
