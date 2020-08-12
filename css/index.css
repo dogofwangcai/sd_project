@@ -1,0 +1,38 @@
+.header{
+	background: #242629;
+	height: 99px;
+	border: 1px solid  #242629;
+} 
+.header-wrap{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-wrap .header-left {
+	display: flex;
+
+}
+.header-wrap .header-left img.logo1{
+	display: block;
+	width: 44px;
+	height: 54px;
+}
+.header-wrap .header-left img.logo2{
+	display: block;
+	width: 127px;
+	height: 24px;
+}
+.header-wrap .header-left>div>span{
+	margin-top: 4px;
+	color:#fff;
+	font-size: 14px;
+}
+.header-right {
+	display: flex;
+}
+.header-right ul li{
+	display: block;
+}
