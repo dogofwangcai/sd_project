@@ -90,12 +90,18 @@
 	justify-content: space-between;
 
 }
+.info-wrap .content .right .comment .star img{
+	width: 12px;
+	height: 12px;
+	margin-right: 3px;
+}
 .info-wrap .content .right .comment>div{
 	font-size:12px;
 	font-family:Microsoft YaHei;
 	font-weight:400;
 	color:rgba(155,155,157,1);
-	line-height:20px
+	line-height:20px;
+	margin-bottom: 14px;
 }
 .info-wrap .content .right .comment>div span{
 	margin-left: 10px;
