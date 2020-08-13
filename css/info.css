@@ -1,0 +1,112 @@
+.info-wrap{
+	background: #3E4650;
+	padding: 48px 0 52px 0;
+}
+.info-wrap .content{
+	width: 1200px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.info-wrap .content .left{
+	width: 317px;
+	margin-right: 26px;
+}
+.info-wrap .content .left img{
+	width: 317px;
+	height: 192px;
+	margin-bottom: 19px;
+	border-radius: 2px;
+	border:1px solid #fff;
+}
+.info-wrap .content .left .time{
+	display: flex;
+	height: 44px;
+	width: 100%;
+}
+.info-wrap .content .left .time>div:first-child{
+	background: #323438;
+	text-align: center;
+	line-height: 44px;
+	height: 44px;
+	font-size: 20px;
+	color: #ffff;
+	flex: 1;
+}
+.info-wrap .content .left .time>div:first-child > span:nth-child(odd){
+	color: #EBA416;
+	font-style:italic;
+}
+.info-wrap .content .left .time>div:last-child{
+	width: 120px;
+	height: 44px;
+	color: #fff;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	line-height:44px;
+	background: #D64022;
+	text-align: center;
+}
+.info-wrap .content .left .time>div:last-child a{
+	color: #fff;
+}
+
+.info-wrap .content .right .title{
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	margin-bottom: 14px;
+
+}
+.info-wrap .content .right p{
+	
+}
+.info-wrap .content .right .name{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	margin-bottom: 27px;
+
+}
+.info-wrap .content .right p{
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	margin-top: 0;
+}
+.info-wrap .content .right .time{
+	margin-bottom: 12px;
+}
+.info-wrap .content .right .comment{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.info-wrap .content .right .comment>div{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(155,155,157,1);
+	line-height:20px
+}
+.info-wrap .content .right .comment>div span{
+	margin-left: 10px;
+}
+.info-wrap .content .right  .intro{
+	border-top: 1px solid #6C6C6E;
+	padding-top: 17px;
+	height:87px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(157,164,174,1);
+	line-height:24px;
+}
