@@ -15,16 +15,10 @@
   display: flex;
 }
 .header-wrap .header-left img.logo1 {
-  display: block;
-  width: 44px;
+  width: 188px;
   height: 54px;
-  margin-right: 13px;
 }
-.header-wrap .header-left img.logo2 {
-  display: block;
-  width: 127px;
-  height: 24px;
-}
+
 .header-wrap .header-left > div > span {
   margin-top: 4px;
   color: #fff;
@@ -71,6 +65,23 @@
   font-size: 14px;
   color: #fff;
 }
+.header-right .login a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.header-right .login img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.header-right .login span {
+  font-size: 14px;
+  color: #fff;
+  margin: 0 15px 0 8px;
+}
+
 .body {
   min-height: 500px;
 }

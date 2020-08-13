@@ -1,19 +1,20 @@
-.top {
+.cTop {
+  width: 100%;
+  height: 350px;
+  margin-top: 8px;
+  background-color: #ffffff;
+}
+
+.cBanner {
   width: 1181px;
   height: 350px;
   margin: 0 auto;
-  margin-top: 8px;
-}
-
-.banner {
-  width: 1181px;
-  height: 350px;
   background-image: url("../img/banner.png");
   background-size: 100% 100%;
   position: relative;
 }
 
-.join {
+.cJoin {
   width: 154px;
   height: 46px;
   background: linear-gradient(
@@ -31,4 +32,206 @@
   color: rgba(255, 255, 255, 1);
   line-height: 46px;
   text-align: center;
+}
+.cCenter {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.cTitle {
+  width: 165px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 29px;
+  margin-bottom: 20px;
+}
+.cTitle .point {
+  width: 10px;
+  height: 10px;
+  background: rgba(52, 165, 132, 1);
+}
+.cTitle .font {
+  height: 25px;
+  font-size: 24px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  font-style: italic;
+  color: rgba(6, 113, 162, 1);
+  line-height: 20px;
+  letter-spacing: 5px;
+}
+
+.cTeacher {
+  width: 1181px;
+  height: 172px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftIcon {
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/left.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.rightIcon {
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/right.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.cTeacherList {
+  width: 1080px;
+  display: flex;
+  justify-content: flex-start;
+}
+.cTeacherList .teacherCard {
+  width: 350px;
+  height: 172px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(220, 220, 220, 1);
+  box-shadow: 0px 0px 16px 0px rgba(122, 163, 205, 0.47);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.cTeacherList .teacherCard:nth-child(2) {
+  margin: 0 16px;
+}
+.cTeacherList .teacherCard .leftBox {
+  width: 80px;
+  margin-left: 25px;
+  text-align: center;
+}
+.cTeacherList .teacherCard .rightBox {
+  width: 233px;
+}
+.cTeacherList .teacherCard .leftBox .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-top: 22px;
+}
+.cTeacherList .teacherCard .leftBox .name {
+  width: 100%;
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(26, 28, 31, 1);
+  line-height: 36px;
+}
+.cTeacherList .teacherCard .leftBox .position {
+  width: 100%;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(140, 157, 169, 1);
+  line-height: 17px;
+}
+.cTeacherList .teacherCard .rightBox .company {
+  width: 100%;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(26, 28, 31, 1);
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.cTeacherList .teacherCard .rightBox .introduction {
+  width: 205px;
+  height: 82px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(117, 139, 154, 1);
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+.schedule {
+  width: 1180px;
+  height: 572px;
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 14px 0px rgba(63, 154, 202, 0.5);
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.cInfo {
+  width: 1173px;
+  height: 115px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(2, 154, 192, 1);
+}
+.cInfo table {
+  width: 100%;
+}
+.cInfo table thead {
+  background: rgba(2, 154, 192, 1);
+}
+.cInfo table thead tr th {
+  width: 25%;
+  height: 45px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
+  margin: 0 auto;
+}
+.tableContent {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.tableContent div {
+  height: 45px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(32, 27, 27, 1);
+  line-height: 34px;
+  text-align: center;
+}
+.tableContent > div:nth-child(1) {
+  width: 15%;
+  border-right: 1px solid rgba(2, 154, 192, 1);
+}
+.tableContent div:nth-child(2) {
+  width: 35%;
+  border-right: 1px solid rgba(2, 154, 192, 1);
+}
+.tableContent div:nth-child(3) {
+  width: 15%;
+  border-right: 1px solid rgba(2, 154, 192, 1);
+  padding-right: -10px;
+}
+.tableContent > div:nth-child(4) {
+  width: 35%;
+}
+.tableContent div:nth-child(4) div {
+  width: 86%;
+  margin: 0 auto;
+  line-height: 20px;
+  text-align: left;
+}
+.CFoot {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: red;
 }
