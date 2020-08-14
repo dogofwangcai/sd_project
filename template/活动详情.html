@@ -315,5 +315,22 @@
       $(this).find(".itemContent").show();
       $(this).siblings().find(".itemContent").hide();
     });
+    layui.use("layer", function () {
+      var layer = layui.layer;
+      $(".cJoin").on("click", function () {
+        layer.open({
+          type: 2,
+          maxmin: true,
+          title: [
+            "报名信息",
+            "font-size:18px;background:#029AC0;text-align:center;color:#ffffff",
+          ],
+          area: ["700px", "800px"],
+          shadeClose: false, //点击遮罩关闭
+          content: ["./join.html", "no"],
+        });
+      });
+    });
+    const layer = layui.layer;
   </script>
 </html>

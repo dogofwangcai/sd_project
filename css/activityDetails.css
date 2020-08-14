@@ -32,6 +32,8 @@
   color: rgba(255, 255, 255, 1);
   line-height: 46px;
   text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 .cCenter {
   width: 100%;
@@ -267,7 +269,6 @@
   background: rgba(2, 154, 192, 1);
 }
 .cInfo table thead tr th {
-  width: 25%;
   height: 45px;
   font-size: 16px;
   font-family: Microsoft YaHei;
@@ -275,6 +276,18 @@
   color: rgba(255, 255, 255, 1);
   line-height: 20px;
   margin: 0 auto;
+}
+.cInfo table thead tr th:nth-child(1) {
+  width: 15%;
+}
+.cInfo table thead tr th:nth-child(2) {
+  width: 40%;
+}
+.cInfo table thead tr th:nth-child(4) {
+  width: 15%;
+}
+.cInfo table thead tr th:nth-child(4) {
+  width: 30%;
 }
 .tableContent {
   display: flex;
@@ -295,7 +308,7 @@
   border-right: 1px solid rgba(2, 154, 192, 1);
 }
 .tableContent div:nth-child(2) {
-  width: 35%;
+  width: 40%;
   border-right: 1px solid rgba(2, 154, 192, 1);
 }
 .tableContent div:nth-child(3) {
@@ -304,7 +317,7 @@
   padding-right: -10px;
 }
 .tableContent > div:nth-child(4) {
-  width: 35%;
+  width: 30%;
 }
 .tableContent div:nth-child(4) div {
   width: 86%;
