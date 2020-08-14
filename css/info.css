@@ -51,7 +51,9 @@
 .info-wrap .content .left .time>div:last-child a{
 	color: #fff;
 }
-
+.info-wrap .content .right {
+	flex: 1;
+}
 .info-wrap .content .right .title{
 	font-size:18px;
 	font-family:Microsoft YaHei;
