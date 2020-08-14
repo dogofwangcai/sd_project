@@ -175,8 +175,9 @@
         <label class="layui-form-label"></label>
         <div class="layui-input-block">
           <button
-            type="reset"
-            class="layui-btn"
+            type="button"
+            class="layui-btn layui-btn-normal"
+            id="set"
             style="
               width: 120px;
               height: 40px;
@@ -227,6 +228,13 @@
         layer.msg(JSON.stringify(data.field));
         return false;
       });
+    });
+    layui.$("#set").on("click", function () {
+      console.log("set on click");
+      //设值
+      // form.val("example", {
+      //   name: "啦啦啦"",
+      // });
     });
   </script>
 </html>

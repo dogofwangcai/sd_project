@@ -49,6 +49,12 @@
   margin-top: 29px;
   margin-bottom: 20px;
 }
+.cless {
+  margin-top: 9px;
+}
+.ctless {
+  margin-bottom: 0px;
+}
 .cTitle .point {
   width: 10px;
   height: 10px;
@@ -69,28 +75,12 @@
   width: 1181px;
   height: 172px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 20px 0 !important;
 }
-.leftIcon {
-  width: 40px;
-  height: 40px;
-  background-image: url("../img/left.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  cursor: pointer;
-}
-.rightIcon {
-  width: 40px;
-  height: 40px;
-  background-image: url("../img/right.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  cursor: pointer;
-}
+
 .cTeacherList {
   width: 1080px;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-start;
 }
@@ -103,6 +93,10 @@
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+}
+.cTeacherList .teacherCard.active {
+  border: 2px solid rgba(129, 213, 236, 1);
 }
 .cTeacherList .teacherCard:nth-child(2) {
   margin: 0 16px;
