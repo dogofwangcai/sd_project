@@ -9,24 +9,26 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.outbox {
+  width: 100%;
+  position: absolute;
+  top: 138px;
+}
 .box {
   width: 1078px;
   height: 383px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 24px 0px rgba(105, 116, 122, 0.76);
   border-radius: 4px;
-  position: absolute;
-  top: 138px;
-  left: 425px;
   border-bottom: 6px solid rgba(2, 154, 192, 1);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 .box .left {
   width: 597px;
   height: 255px;
-  /* background: olive; */
 }
 .box .left .title {
   width: 100%;

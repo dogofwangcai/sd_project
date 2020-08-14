@@ -4,20 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>关于我们</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/aboutUs.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
   </head>
   <body>
-    <div class="outside">
-      <div class="top"></div>
-      <div class="box">
-        <div class="left">
-          <div class="title">简介</div>
-          <div class="content">
-            国家科技图书文献中心（National Science and Technology Library
-            [NSTL]，以下简称中心）是科技部联合财政部等六部门，经国务院领导批准，于2000年6月12日成立的一个基于网络环境的科技文献信息资源服务机构。由中国科学院文献情报中心、中国科学技术信息研究所、机械工业信息研究院、冶金工业信息标准研究院、中国化工信息中心、中国农业科学院农业信息研究所、中国医学科学院医学信息研究所、中国标准化研究院标准馆和中国计量科学研究院文献馆九个文献信息机构组成。中心以构建数字时代的国家科技文献资源战略保障服务体系为宗旨，按照“统一采购、规范加工、联合上网、资源共享”的机制，采集、收藏和开发理、工、农、医各学科领域的科技文献资源，面向全国提供公益的、普惠的科技文献信息服务。
+    <header class="header">
+      <div class="header-wrap">
+        <div class="header-left">
+          <img src="../img/LOGO @2x.png" class="logo1" />
+        </div>
+        <div class="header-right">
+          <ul>
+            <li>
+              <a href="#">首页</a>
+            </li>
+            <li>
+              <a href="#">培训活动</a>
+            </li>
+            <li>
+              <a href="#">会议活动</a>
+            </li>
+            <li>
+              <a href="#">名优讲师</a>
+            </li>
+            <li>
+              <a href="#">合作机构</a>
+            </li>
+            <li>
+              <a href="#">关于我们</a>
+            </li>
+          </ul>
+          <div class="search-wrap">
+            <input placeholder="请输入" type="text" name="" />
+            <img src="../img/search.png" />
+          </div>
+          <!-- <div class="unlogin">
+        					<a href="#">登录</a>
+        				</div> -->
+          <div class="login">
+            <img src="../img/user.png" />
+            <span>某某某</span>
+            <a href="#">退出</a>
           </div>
         </div>
-        <div class="right"><img src="../img/bghj.png" /></div>
+      </div>
+    </header>
+    <div class="outside">
+      <div class="top"></div>
+      <div class="outbox">
+        <div class="box">
+          <div class="left">
+            <div class="title">简介</div>
+            <div class="content">
+              国家科技图书文献中心（National Science and Technology Library
+              [NSTL]，以下简称中心）是科技部联合财政部等六部门，经国务院领导批准，于2000年6月12日成立的一个基于网络环境的科技文献信息资源服务机构。由中国科学院文献情报中心、中国科学技术信息研究所、机械工业信息研究院、冶金工业信息标准研究院、中国化工信息中心、中国农业科学院农业信息研究所、中国医学科学院医学信息研究所、中国标准化研究院标准馆和中国计量科学研究院文献馆九个文献信息机构组成。中心以构建数字时代的国家科技文献资源战略保障服务体系为宗旨，按照“统一采购、规范加工、联合上网、资源共享”的机制，采集、收藏和开发理、工、农、医各学科领域的科技文献资源，面向全国提供公益的、普惠的科技文献信息服务。
+            </div>
+          </div>
+          <div class="right"><img src="../img/bghj.png" /></div>
+        </div>
       </div>
     </div>
     <div class="space">联系方式</div>
@@ -35,5 +80,57 @@
         <div>预约培训</div>
       </div>
     </div>
+    <footer class="footer">
+      <div class="link">
+        <span>友情链接：</span>
+        <a href="#">中科院文献情报中心 </a>
+        <a href="#">NSTL国家图书科技文献中心 </a>
+        <a href="#">中国科学院 </a>
+        <a href="#">中科院文献情报中心 </a>
+      </div>
+      <div class="footer-wrap">
+        <div>
+          <div>
+            <p>关于平台</p>
+            <p>运营单位: 中国科学院文献情报中心</p>
+            <p>技术支持: 中科院文献情报中心信息系统部</p>
+            <p>北京中科文情方略科技有限公司</p>
+          </div>
+          <div>
+            <p>关于平台</p>
+            <p>电话:010-82628382</p>
+            <p>地址:北京市中关村北四环西路33号</p>
+          </div>
+          <div>
+            <p>版权公告</p>
+            <p>使用协议</p>
+            <p>隐私声明</p>
+            <p>使用反馈</p>
+          </div>
+          <div
+            style="
+              width: 1px;
+              background: #747575;
+              height: 82px;
+              margin-top: 30px;
+            "
+          ></div>
+          <div style="text-align: center;">
+            <img
+              src="../img/QRcode1@2x.png"
+              style="width: 85px; height: 85px;"
+            />
+            <p>扫码下载APP</p>
+          </div>
+          <div style="text-align: center;">
+            <img
+              src="../img/QRcode2@2x.png"
+              style="width: 85px; height: 85px;"
+            />
+            <p>官方微信</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
