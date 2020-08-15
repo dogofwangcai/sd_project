@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人中心</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/personalCenter.css" />
+  </head>
+  <body>
+    <div class="cbody">
+      <div class="ctop">
+        <div class="left">
+          <div class="leftTop"></div>
+          <div class="pic">
+            <img src="../img/clock.png" />
+          </div>
+          <div class="leftBottom">
+            <div class="name">王飞宇</div>
+            <div class="title">中科院文献情报中心</div>
+            <div class="messageBox">
+              <div class="myCollection box">
+                <div class="num">03</div>
+                <div class="numName">我的收藏</div>
+              </div>
+              <div class="myLike box">
+                <div class="num">45</div>
+                <div class="numName">我的点赞</div>
+              </div>
+            </div>
+            <div class="select">
+              <div class="selectList">
+                <div class="option">
+                  <img src="../img/phone.png" />
+                  <div class="font">观看历史</div>
+                </div>
+                <div class="option">
+                  <img src="../img/phone.png" />
+                  <div class="font">活动报名</div>
+                </div>
+                <div class="option">
+                  <img src="../img/phone.png" />
+                  <div class="font">我的证书</div>
+                </div>
+                <div class="option active">
+                  <img src="../img/phone.png" />
+                  <div class="font">我的预约</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="rightcontent">0</div>
+          <div class="rightcontent">1</div>
+          <div class="rightcontent myCertificate">2</div>
+          <div class="rightcontent myAppointment">
+            <div class="cInfo">
+              <div class="tablehead">
+                <div>课程主题</div>
+                <div>课程类型</div>
+                <div>课程时间</div>
+                <div>提交时间</div>
+                <div>预约反馈</div>
+                <div></div>
+              </div>
+              <div class="tableContent">
+                <div><div>2020年NSTL专业知识与</div></div>
+                <div><div>某某某某某</div></div>
+                <div><div>2020-09-22</div></div>
+                <div><div>2020/09/22 19:35</div></div>
+                <div><div>该课程已上线</div></div>
+                <div><div>查看</div></div>
+              </div>
+              <div class="tableContent">
+                <div><div>2020年NSTL专业知识与情报分析能力高级培训</div></div>
+                <div><div>某某某某某某某某某类</div></div>
+                <div><div>2020-09-22</div></div>
+                <div><div>2020/09/22 19:35</div></div>
+                <div><div>该课程已上线</div></div>
+                <div><div>查看</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cbottom"></div>
+    </div>
+  </body>
+  <script src="../js/lib/jquery/jquery.min.js"></script>
+  <script>
+    window.onload = function () {
+      $(".right").find("div").eq(3).show().siblings().hide();
+      $(".option").click(function (e) {
+        $(this).addClass("active").siblings().removeClass("active");
+        const index = $(this).index();
+        $(".right").find("div").eq(index).show().siblings().hide();
+      });
+    };
+  </script>
+</html>

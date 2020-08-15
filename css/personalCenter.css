@@ -1,0 +1,269 @@
+.cbody {
+  width: 1182px;
+  height: 628px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+.cbody .ctop {
+  width: 100%;
+  height: 553px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cbody .ctop .left {
+  width: 221px;
+  height: 553px;
+  background: rgba(239, 246, 251, 1);
+  border: 1px solid rgba(2, 154, 192, 1);
+  border-radius: 8px 8px 0px 0px;
+  margin-right: 19px;
+  border-radius: 6px 6px 0px 0px;
+  position: relative;
+}
+.cbody .ctop .left .pic {
+  width: 100%;
+  position: absolute;
+  top: 52px;
+}
+.cbody .ctop .left .pic > img {
+  width: 79px;
+  height: 79px;
+  display: block;
+  background: rgba(207, 204, 203, 1);
+  border: 4px solid rgba(255, 255, 255, 1);
+  box-shadow: 1px 6px 2px 0px rgba(32, 65, 139, 0.24),
+    1px 4px 4px 0px rgba(27, 61, 86, 0.53);
+  border-radius: 40px;
+  margin: 0 auto;
+}
+.cbody .ctop .left .leftTop {
+  width: 221px;
+  height: 101px;
+  background: cornflowerblue;
+}
+.cbody .ctop .left .leftBottom {
+  width: 221px;
+  height: 452px;
+}
+.cbody .ctop .left .leftBottom .name {
+  width: 150px;
+  height: 15px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(36, 38, 41, 1);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+.cbody .ctop .left .leftBottom .title {
+  width: 200px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(122, 140, 162, 1);
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 17px;
+  margin-top: 11px;
+}
+.cbody .ctop .left .leftBottom .messageBox {
+  width: 190px;
+  height: 61px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(199, 221, 237, 1);
+  border-bottom: 1px solid rgba(199, 221, 237, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cbody .ctop .left .leftBottom .messageBox .box {
+  width: 50%;
+  height: 34px;
+  text-align: center;
+}
+.cbody .ctop .left .leftBottom .messageBox .box .num {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(45, 47, 52, 1);
+}
+.cbody .ctop .left .leftBottom .messageBox .box .numName {
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(123, 139, 162, 1);
+}
+.cbody .ctop .left .leftBottom .messageBox .myCollection {
+  border-right: 1px solid rgba(191, 221, 236, 1);
+}
+.cbody .ctop .left .leftBottom .select {
+  width: 100%;
+  height: 273px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cbody .ctop .left .leftBottom .select .selectList {
+  width: 100%;
+  height: 195px;
+}
+.cbody .ctop .left .leftBottom .select .selectList .option {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.cbody .ctop .left .leftBottom .select .selectList .option.active {
+  background: rgba(216, 232, 243, 1);
+  border-left: 6px solid rgba(2, 154, 192, 1);
+  box-sizing: border-box;
+}
+.cbody .ctop .left .leftBottom .select .selectList .option img {
+  width: 30px;
+  height: 30px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 54px;
+}
+.cbody .ctop .left .leftBottom .select .selectList .option.active img {
+  margin-left: 48px;
+}
+.cbody .ctop .left .leftBottom .select .selectList .option .font {
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(59, 74, 89, 1);
+  line-height: 50px;
+  margin-left: 12px;
+}
+.cbody .ctop .right {
+  width: 940px;
+  height: 553px;
+  overflow: hidden;
+}
+.cbody .ctop .right .rightcontent {
+  width: 940px;
+  height: 553px;
+}
+.cbody .ctop .right .myAppointment {
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(2, 154, 192, 1);
+  box-shadow: 0px 2px 6px 0px rgba(169, 194, 209, 0.5);
+  border-radius: 6px 6px 0px 0px;
+  box-sizing: border-box;
+}
+.cbody .ctop .right .myAppointment .cInfo {
+  width: 100%;
+  /* height: 115px; */
+  /* margin: 20px auto;
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(2, 154, 192, 1); */
+}
+.cbody .ctop .right .myAppointment .cInfo .tablehead {
+  width: 100%;
+  height: 55px;
+  background: rgba(2, 154, 192, 1);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cbody .ctop .right .myAppointment .cInfo .tablehead div {
+  height: 24px;
+  text-align: center;
+  /* padding: 16px 0px; */
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
+  margin: 0 auto;
+}
+.cbody .ctop .right .myAppointment .cInfo .tablehead div:nth-child(1) {
+  width: 25%;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.cbody .ctop .right .myAppointment .cInfo .tablehead div:nth-child(2) {
+  width: 17%;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.cbody .ctop .right .myAppointment .cInfo .tablehead div:nth-child(3) {
+  width: 15%;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.cbody .ctop .right .myAppointment .cInfo .tablehead div:nth-child(4) {
+  width: 18%;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.cbody .ctop .right .myAppointment .cInfo .tablehead div:nth-child(5) {
+  width: 15%;
+}
+.cbody .ctop .right .myAppointment .cInfo .tablehead div:nth-child(6) {
+  width: 10%;
+}
+.cbody .ctop .right .myAppointment .tableContent {
+  width: 920px;
+  height: 66px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgba(208, 224, 234, 1);
+}
+.cbody .ctop .right .myAppointment .tableContent:nth-child(7) {
+  border-bottom: none;
+}
+.cbody .ctop .right .myAppointment .tableContent.active {
+  background: rgba(239, 246, 251, 1);
+}
+.cbody .ctop .right .myAppointment .tableContent div {
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(18, 18, 18, 1);
+  line-height: 20px;
+  text-align: center;
+}
+.cbody .ctop .right .myAppointment .tableContent div > div {
+  width: 86%;
+  margin: 0 auto;
+}
+.cbody .ctop .right .myAppointment .tableContent > div:nth-child(1) {
+  width: 25%;
+}
+.cbody .ctop .right .myAppointment .tableContent div:nth-child(2) {
+  width: 17%;
+}
+.cbody .ctop .right .myAppointment .tableContent div:nth-child(3) {
+  width: 15%;
+}
+.cbody .ctop .right .myAppointment .tableContent > div:nth-child(4) {
+  width: 18%;
+}
+.cbody .ctop .right .myAppointment .tableContent > div:nth-child(5) {
+  width: 15%;
+}
+.cbody .ctop .right .myAppointment .tableContent > div:nth-child(6) {
+  width: 10%;
+}
+.cbody .ctop .right .myAppointment .tableContent div:nth-child(6) div {
+  width: 68px;
+  height: 28px;
+  background: rgba(93, 183, 121, 1);
+  border-radius: 14px;
+  color: #ffffff;
+  line-height: 28px;
+}
+.cbody .ctop .right .myCertificate {
+  background: burlywood;
+}
+.cbody .cbottom {
+  width: 100%;
+  height: 36px;
+  background: #cccccc;
+  margin-top: 37px;
+}
