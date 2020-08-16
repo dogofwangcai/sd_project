@@ -69,13 +69,20 @@
   font-size: 14px;
   color: #fff;
 }
-
+.header-wrap .active{
+  background: rgba(2, 154, 192, 1);
+}
 .header-right .login img {
   width: 16px;
   height: 16px;
   vertical-align: middle;
 }
-
+.header-right>ul>li>a:hover{
+  color: rgba(2, 154, 192, 1);
+}
+.header-right>ul>li>a.active:hover{
+  color: #fff;
+}
 .header-right .login span {
   font-size: 14px;
   color: #fff;
