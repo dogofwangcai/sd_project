@@ -102,6 +102,7 @@
 .buttonbox .button:nth-child(3) {
   background: rgba(84, 107, 194, 1);
   box-shadow: 0px 0px 16px 0px rgba(122, 163, 205, 0.47);
+  cursor: pointer;
 }
 .buttonbox .button img {
   width: 23px;

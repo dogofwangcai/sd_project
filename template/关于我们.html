@@ -75,7 +75,7 @@
         <img src="../img/yellowEmail.png" />
         <div>邮箱：service2@nstl.gov.cn</div>
       </div>
-      <div class="button">
+      <div class="button" id="yy">
         <img src="../img/clock.png" />
         <div>预约培训</div>
       </div>
@@ -133,4 +133,24 @@
       </div>
     </footer>
   </body>
+  <script src="../js/lib/jquery/jquery.min.js"></script>
+  <script src="../js/lib/layui/layui.js"></script>
+  <script>
+    layui.use("layer", function () {
+      var layer = layui.layer;
+      $("#yy").on("click", function () {
+        layer.open({
+          type: 2,
+          maxmin: true,
+          // title: [
+          //   "报名信息",
+          //   "font-size:18px;background:#029AC0;text-align:center;color:#ffffff",
+          // ],
+          area: ["700px", "800px"],
+          shadeClose: false, //点击遮罩关闭
+          content: ["./modal.html", "no"],
+        });
+      });
+    });
+  </script>
 </html>

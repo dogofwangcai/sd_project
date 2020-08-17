@@ -60,7 +60,7 @@
           <div class="left">
             <img src="../img/test.png" />
             <div class="time">
-              <div>
+              <div style="color:#fff">
                 <span>11</span>
                 <span>时</span>
                 <span>11</span>
@@ -69,7 +69,7 @@
                 <span>秒</span>
               </div>
               <div>
-                <a href="#">报名观看</a>
+                <span style="cursor: pointer;" class="cJoin">报名观看</span>
               </div>
             </div>
           </div>
@@ -89,10 +89,10 @@
             <div class="comment">
               <p>课程评价：
               <span class="star">
-                    <img src="../img/star.png" alt="">
-                    <img src="../img/star.png" alt="">
-                    <img src="../img/star.png" alt="">
-                    <img src="../img/star.png" alt="">
+                    <img src="../img/starCommet.png" alt="">
+                    <img src="../img/starCommet.png" alt="">
+                    <img src="../img/starCommet.png" alt="">
+                    <img src="../img/starCommet.png" alt="">
                     <img src="../img/collect.png" alt="">
               </span></p>
               <div>
@@ -105,8 +105,9 @@
                 </span>
                 <span>
                   <img
-                    src="../img/thumbs.png"
+                    src="../img/unthumbs.png"
                     style="width: 16px; height: 16px;"
+                    id="thumbs"
                   />
                   233
                 </span>
@@ -114,6 +115,7 @@
                   <img
                     src="../img/collect.png"
                     style="width: 16px; height: 18px;"
+                    id="collect"
                   />
                   233
                 </span>
@@ -213,7 +215,7 @@
                     >国际科学仪器发展报告（2014-2015）</a
                   >
                   <div class="people">
-                    <img src="../img/user.png" />
+                    <img src="../img/peoples.png" />
                     <a href="#">某某某</a>
                   </div>
                   <div class="intro">
@@ -231,7 +233,7 @@
                     >国际科学仪器发展报告（2014-2015）</a
                   >
                   <div class="people">
-                    <img src="../img/user.png" />
+                    <img src="../img/peoples.png" />
                     <a href="#">某某某</a>
                   </div>
                   <div class="intro">
@@ -302,6 +304,7 @@
         </div>
       </div>
     </footer>
+    <script src="../js/lib/layui/layui.js"></script>
     <script type="text/javascript">
       window.onload = function () {
         $(".tab-header")
@@ -316,6 +319,28 @@
               .siblings()
               .removeClass("div_show");
           });
+          layui.use("layer", function () {
+        var layer = layui.layer;
+        $(".cJoin").on("click", function () {
+          layer.open({
+            type: 2,
+            maxmin: true,
+            title: [
+              "报名信息",
+              "font-size:18px;background:#029AC0;text-align:center;color:#ffffff",
+            ],
+            area: ["700px", "800px"],
+            shadeClose: false, //点击遮罩关闭
+            content: ["./join.html", "no"],
+          });
+        });
+        $("#thumbs").on("click",function(){
+        	$(this).attr('src','../img/thumbs.png')
+        })
+        $("#collect").on("click",function(){
+        	$(this).attr('src','../img/starCommet.png')
+        })
+      });
       };
     </script>
   </body>
