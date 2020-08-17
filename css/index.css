@@ -99,8 +99,13 @@
   font-size: 14px;
   text-align: center;
 }
+.footer .link span{
+  color: #323438;
+font-weight:bold;
+}
 .footer .link a {
   margin: 0 10px;
+  color: #6E7379;
 }
 .footer .footer-wrap {
   padding-top: 32px;
@@ -114,4 +119,10 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+.footer .footer-wrap p {
+  margin-bottom: 10px;
+}
+.footer .footer-wrap p img{
+  vertical-align: middle;
 }
