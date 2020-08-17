@@ -105,8 +105,9 @@
                 </span>
                 <span>
                   <img
-                    src="../img/thumbs.png"
+                    src="../img/unthumbs.png"
                     style="width: 16px; height: 16px;"
+                    id="thumbs"
                   />
                   233
                 </span>
@@ -114,6 +115,7 @@
                   <img
                     src="../img/collect.png"
                     style="width: 16px; height: 18px;"
+                    id="collect"
                   />
                   233
                 </span>
@@ -213,7 +215,7 @@
                     >国际科学仪器发展报告（2014-2015）</a
                   >
                   <div class="people">
-                    <img src="../img/user.png" />
+                    <img src="../img/peoples.png" />
                     <a href="#">某某某</a>
                   </div>
                   <div class="intro">
@@ -231,7 +233,7 @@
                     >国际科学仪器发展报告（2014-2015）</a
                   >
                   <div class="people">
-                    <img src="../img/user.png" />
+                    <img src="../img/peoples.png" />
                     <a href="#">某某某</a>
                   </div>
                   <div class="intro">
@@ -332,6 +334,12 @@
             content: ["./join.html", "no"],
           });
         });
+        $("#thumbs").on("click",function(){
+        	$(this).attr('src','../img/thumbs.png')
+        })
+        $("#collect").on("click",function(){
+        	$(this).attr('src','../img/starCommet.png')
+        })
       });
       };
     </script>
