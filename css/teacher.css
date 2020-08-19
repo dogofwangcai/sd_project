@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  align-items: center;
+  /* align-items: center; */
 }
 .teacher-wrap .content .left {
   text-align: center;
@@ -93,6 +93,7 @@
 .teacher-wrap .content .right>div {
     display: flex;
     align-items: center;
+    margin-right: 22px;
 }
 .teacher-wrap .content .right>div>div.item{
     text-align: center;

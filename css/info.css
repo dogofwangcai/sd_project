@@ -23,9 +23,10 @@
 	display: flex;
 	height: 44px;
 	width: 100%;
+	background: #323438;
 }
 .info-wrap .content .left .time>div:first-child{
-	background: #323438;
+	
 	text-align: center;
 	line-height: 44px;
 	height: 44px;
@@ -47,13 +48,35 @@
 	line-height:44px;
 	background: #D64022;
 	text-align: center;
+	border-radius: 4px;
 }
 .info-wrap .content .left .time>div:last-child a{
 	color: #fff;
 }
 .info-wrap .content .right {
 	flex: 1;
+	position: relative;
 }
+.info-wrap .content .right .qrcode{
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	
+	line-height:20px;
+}
+.info-wrap .content .right .qrcode p{
+	color:rgba(164,169,176,1) !important;
+}
+.info-wrap .content .right .qrcode img{
+	width: 89px;
+	height: 87px;
+	margin-bottom: 11;
+}
+
 .info-wrap .content .right .title{
 	font-size:18px;
 	font-family:Microsoft YaHei;
@@ -106,7 +129,7 @@
 	margin-bottom: 14px;
 }
 .info-wrap .content .right .comment>div span{
-	margin-left: 10px;
+	margin-left: 30px;
 }
 .info-wrap .content .right  .intro{
 	border-top: 1px solid #6C6C6E;
@@ -117,4 +140,7 @@
 	font-weight:400;
 	color:rgba(157,164,174,1);
 	line-height:24px;
+}
+.info-wrap .content .right .comment img{
+	vertical-align:  text-bottom;
 }

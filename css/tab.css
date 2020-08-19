@@ -54,19 +54,23 @@
 	padding: 15px 0;
 }
 .tab-wrap .content .tab-content .tab1 .item .people{
+	color: #046DA4;
 	margin-bottom: 15px;
 }
 .tab-wrap .content .tab-content .tab1 .item .people img{
 	vertical-align: middle;
 	width: 21px;
 	height: 17px;
+	margin-right: 14px;
 }
 .tab-wrap .content .tab-content .tab1 .item .people a{
 	font-size:13px;
 	font-family:Microsoft YaHei;
 	font-weight:bold;
 	color:rgba(4,109,164,1);
-	line-height:30px;
+	line-height:20px;
+	display: inline-block;
+	border-bottom: 1px solid #046DA4;
 }
 .tab-wrap .content .tab-content .tab1 .item .intro{
 	height:63px;
@@ -98,8 +102,12 @@
 	width: 550px;
 	height: 120px;
 	margin-bottom: 18px;
+	cursor: pointer;
 }
-.tab-wrap .content .tab-content .tab2 div.item:nth-child(odd){
+.tab-wrap .content .tab-content .tab2 .item:hover{
+	border:1px solid #b8b9bb;
+}
+.tab-wrap .content .tab-content .tab2  div.item:nth-child(odd){
 	margin-right: 28px;
 }
 .tab-wrap .content .tab-content .tab2 .item .postimg {
