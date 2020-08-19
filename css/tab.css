@@ -108,7 +108,8 @@
 	cursor: pointer;
 }
 .tab-wrap .content .tab-content .tab2 .item:hover{
-	border:1px solid #b8b9bb;
+	/* border:1px solid #b8b9bb; */
+	background-color: #E9EDF3;
 }
 .tab-wrap .content .tab-content .tab2  div.item:nth-child(odd){
 	margin-right: 20px;

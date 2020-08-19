@@ -71,6 +71,7 @@
 }
 .header-wrap .active{
   background: rgba(2, 154, 192, 1);
+  border-radius:2px;
 }
 .header-right .login img {
   width: 16px;
