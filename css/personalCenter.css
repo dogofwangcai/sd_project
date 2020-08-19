@@ -1,5 +1,5 @@
 .cbody {
-  width: 1200px;
+  width: 1180px;
   margin: 0 auto;
   margin-top: 26px;
 }
@@ -147,7 +147,7 @@
   margin-left: 12px;
 }
 .cbody .ctop .right {
-  width: 958px;
+  width: 938px;
   overflow: hidden;
   vertical-align: top;
 }
@@ -277,7 +277,7 @@
 }
 .myCertificateUl li {
   display: inline-block;
-  width: 473px;
+  width: 463px;
   height: 154px;
   overflow: hidden;
   padding: 0 0 22px 0;
@@ -306,7 +306,7 @@
 }
 .myCertificateUl li .text {
   display: inline-block;
-  width: 348px;
+  width: 338px;
   height: 154px;
   overflow: hidden;
   vertical-align: top;
@@ -326,7 +326,7 @@
   padding: 3px 0;
 }
 .myCertificateUl li .value {
-  width: 264px;
+  width: 254px;
   display: inline-block;
   overflow: hidden;
   font-size: 14px;

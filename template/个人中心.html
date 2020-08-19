@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
     <link rel="stylesheet" type="text/css" href="../css/personalCenter.css" />
+    <link rel="stylesheet" type="text/css" href="../css/page.css" />
     <link rel="stylesheet" href="../js/lib/layui/css/layui.css" media="all" />
   </head>
   <body>
@@ -323,7 +324,7 @@
                   </div>
                 </li>
               </ul>
-              <div id="page" class="page"></div>
+              <div id="page" class="page_div"></div>
             </div>
             <div class="rightcontent myAppointment">
               <div class="cInfo">
@@ -429,6 +430,7 @@
   </body>
   <script src="../js/lib/jquery/jquery.min.js"></script>
   <script src="../js/lib/layui/layui.js"></script>
+  <script src="../js/page/pageMe.js"></script>
   <script>
     window.onload = function () {
       $(".right")
@@ -447,39 +449,48 @@
           .siblings(".rightcontent")
           .hide();
       });
-
-      layui.use(["laypage", "layer"], function () {
-        var laypage = layui.laypage,
-          layer = layui.layer;
-        laypage.render({
-          elem: "page",
-          count: 100,
-          limit: 6,
-          theme: "#029AC0",
-          first: "首页",
-          last: "尾页",
-          prev: "<em>上一页</em>",
-          next: "<em>下一页</em>",
-          jump: function (obj) {
-            //翻页触发模拟渲染 obj.limit 是每页条数 obj.curr 是当前页
-            console.log(obj);
-          },
-        });
-        laypage.render({
-          elem: "page1",
-          count: 100,
-          limit: 6,
-          theme: "#029AC0",
-          first: "首页",
-          last: "尾页",
-          prev: "<em>上一页</em>",
-          next: "<em>下一页</em>",
-          jump: function (obj) {
-            //翻页触发模拟渲染 obj.limit 是每页条数 obj.curr 是当前页
-            console.log(obj);
-          },
-        });
-      });
+       // pageMe.js 使用方法
+    $("#page").paging({
+      pageNum: 1, // 当前页面
+      totalNum: 14, // 总页码
+      totalList: 300, // 记录总数量
+      callback: function (num) {
+        //回调函数
+        console.log(num);
+      },
+    });
+      // layui.use(["laypage", "layer"], function () {
+      //   var laypage = layui.laypage,
+      //     layer = layui.layer;
+      //   laypage.render({
+      //     elem: "page",
+      //     count: 100,
+      //     limit: 6,
+      //     theme: "#029AC0",
+      //     first: "首页",
+      //     last: "尾页",
+      //     prev: "<em>上一页</em>",
+      //     next: "<em>下一页</em>",
+      //     jump: function (obj) {
+      //       //翻页触发模拟渲染 obj.limit 是每页条数 obj.curr 是当前页
+      //       console.log(obj);
+      //     },
+      //   });
+      //   laypage.render({
+      //     elem: "page1",
+      //     count: 100,
+      //     limit: 6,
+      //     theme: "#029AC0",
+      //     first: "首页",
+      //     last: "尾页",
+      //     prev: "<em>上一页</em>",
+      //     next: "<em>下一页</em>",
+      //     jump: function (obj) {
+      //       //翻页触发模拟渲染 obj.limit 是每页条数 obj.curr 是当前页
+      //       console.log(obj);
+      //     },
+      //   });
+      // });
     };
   </script>
 </html>
