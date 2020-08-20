@@ -323,20 +323,22 @@
   vertical-align: middle;
 }
 .myCertificateUl li p {
-  padding: 3px 0;
+  display: flex;
+  margin: 6px 0;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
 }
 .myCertificateUl li .value {
-  width: 254px;
-  display: inline-block;
+  flex: 1;
   overflow: hidden;
+  height: 20px;
+  display: block;
   font-size: 14px;
   font-family: Microsoft YaHei;
   font-weight: 400;
   color: rgba(18, 18, 18, 1);
   line-height: 20px;
-  text-overflow: ellipsis;
-  vertical-align: middle;
-  white-space: nowrap;
 }
 .page {
   text-align: center;

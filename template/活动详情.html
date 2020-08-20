@@ -1,482 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>活动详情</title>
-    <link rel="stylesheet" href="../css/activityDetails.css" />
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
-    <link rel="stylesheet" href="../js/lib/layui/css/layui.css" media="all" />
-    <link rel="stylesheet" href="../js/lib/swiper/swiper.css" />
-    <link rel="stylesheet" href="../css/reset.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-wrap">
-        <div class="header-left">
-          <img src="../img/LOGO @2x.png" class="logo1" />
-        </div>
-        <div class="header-right">
-          <ul>
-            <li>
-              <a href="#">首页</a>
-            </li>
-            <li>
-              <a href="#">培训活动</a>
-            </li>
-            <li>
-              <a href="#">会议活动</a>
-            </li>
-            <li>
-              <a href="#">名优讲师</a>
-            </li>
-            <li>
-              <a href="#">合作机构</a>
-            </li>
-            <li>
-              <a href="#">关于我们</a>
-            </li>
-          </ul>
-          <div class="search-wrap">
-            <input placeholder="请输入" type="text" name="" />
-            <img src="../img/search.png" />
-          </div>
-          <!-- <div class="unlogin">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>活动详情</title>
+		<link rel="stylesheet" href="../css/activityDetails.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<link rel="stylesheet" href="../js/lib/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="../js/lib/swiper/swiper.css" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mobile.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-wrap">
+				<span class="m_nav"></span>
+				<div class="header-left">
+					<img src="../img/LOGO @2x.png" class="logo1" />
+				</div>
+				<div class="header-right">
+					<ul>
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">培训活动</a>
+						</li>
+						<li>
+							<a href="#">会议活动</a>
+						</li>
+						<li>
+							<a href="#">名优讲师</a>
+						</li>
+						<li>
+							<a href="#">合作机构</a>
+						</li>
+						<li>
+							<a href="#">关于我们</a>
+						</li>
+					</ul>
+					<div class="search-wrap">
+						<input placeholder="请输入" type="text" name="" />
+						<img src="../img/search.png" />
+					</div>
+					<!-- <div class="unlogin">
     					<a href="#">登录</a>
     				</div> -->
-          <div class="login">
-            <img src="../img/user.png" />
-            <span>某某某</span>
-            <a href="#">退出</a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="cTop">
-      <div class="cBanner">
-        <div class="cJoin">报名参加</div>
-      </div>
-    </div>
-    <div class="cCenter">
-      <div class="cTitle ctless">
-        <div class="point"></div>
-        <div class="font">课程师资</div>
-        <div class="point"></div>
-      </div>
-      <div class="cTeacher swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="cTeacherList">
-              <div class="teacherCard">
-                <div class="leftBox">
-                  <img class="avatar" src="../img/avatar.png" />
-                  <div class="name">孙坦</div>
-                  <div class="position">副院长</div>
-                </div>
-                <div class="rightBox">
-                  <div class="company">
-                    中国农业科学院
-                  </div>
-                  <div class="introduction">
-                    长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
-                  </div>
-                </div>
-              </div>
-              <div class="teacherCard">
-                <div class="leftBox">
-                  <img class="avatar" src="../img/avatar.png" />
-                  <div class="name">孙坦</div>
-                  <div class="position">副院长</div>
-                </div>
-                <div class="rightBox">
-                  <div class="company">
-                    中国农业科学院
-                  </div>
-                  <div class="introduction">
-                    长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
-                  </div>
-                </div>
-              </div>
-              <div class="teacherCard">
-                <div class="leftBox">
-                  <img class="avatar" src="../img/avatar.png" />
-                  <div class="name">孙坦</div>
-                  <div class="position">副院长</div>
-                </div>
-                <div class="rightBox">
-                  <div class="company">
-                    中国农业科学院
-                  </div>
-                  <div class="introduction">
-                    长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cTeacherList">
-              <div class="teacherCard">
-                <div class="leftBox">
-                  <img class="avatar" src="../img/avatar.png" />
-                  <div class="name">孙坦</div>
-                  <div class="position">副院长</div>
-                </div>
-                <div class="rightBox">
-                  <div class="company">
-                    中国农业科学院
-                  </div>
-                  <div class="introduction">
-                    长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
-                  </div>
-                </div>
-              </div>
-              <div class="teacherCard">
-                <div class="leftBox">
-                  <img class="avatar" src="../img/avatar.png" />
-                  <div class="name">孙坦</div>
-                  <div class="position">副院长</div>
-                </div>
-                <div class="rightBox">
-                  <div class="company">
-                    中国农业科学院
-                  </div>
-                  <div class="introduction">
-                    长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-button-next leftIcon"></div>
-        <div class="swiper-button-prev" style="font-size: 40px;"></div>
-      </div>
-      <div class="cTitle cless">
-        <div class="point"></div>
-        <div class="font">课程安排</div>
-        <div class="point"></div>
-      </div>
-      <div class="schedule">
-        <div class="itemBox">
-          <div class="item active">
-            <div class="itemTop">
-              <div class="itemLeft">
-                <img class="itemIcon" src="../img/star.png" />
-                <div class="itemTitle">开幕式</div>
-              </div>
-              <div class="itemRight">
-                主持人：吴波尔（国家科技图书文献中心，副主任）
-              </div>
-            </div>
-            <div class="itemContent">
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="itemTop">
-              <div class="itemLeft">
-                <img class="itemIcon" src="../img/star.png" />
-                <div class="itemTitle">第一节：会议报告</div>
-              </div>
-              <div class="itemRight">
-                主持人：吴波尔（国家科技图书文献中心，副主任）
-              </div>
-            </div>
-            <div class="itemContent" style="display: none;">
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="itemTop">
-              <div class="itemLeft">
-                <img class="itemIcon" src="../img/star.png" />
-                <div class="itemTitle">第二节：会议报告</div>
-              </div>
-              <div class="itemRight">
-                主持人：袁伟（中国科学信息研究所，总工程师）
-              </div>
-            </div>
-            <div class="itemContent" style="display: none;">
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="itemTop">
-              <div class="itemLeft">
-                <img class="itemIcon" src="../img/star.png" />
-                <div class="itemTitle">第三节：会议报告</div>
-              </div>
-              <div class="itemRight">
-                主持人：吴波尔（国家科技图书文献中心，副主任）
-              </div>
-            </div>
-            <div class="itemContent" style="display: none;">
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="itemTop">
-              <div class="itemLeft">
-                <img class="itemIcon" src="../img/star.png" />
-                <div class="itemTitle">第四节：会议报告</div>
-              </div>
-              <div class="itemRight">
-                主持人：吴波尔（国家科技图书文献中心，副主任）
-              </div>
-            </div>
-            <div class="itemContent" style="display: none;">
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="itemTop">
-              <div class="itemLeft">
-                <img class="itemIcon" src="../img/star.png" />
-                <div class="itemTitle">闭幕式：机构知识库未来展望</div>
-              </div>
-              <div class="itemRight">
-                主持人：靳茜（国家科技图书文献中心，信息服务部主任）
-              </div>
-            </div>
-            <div class="itemContent" style="display: none;">
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-              <div class="itemContentBox">
-                <img class="itemContentImg" src="../img/itemImg.png" />
-                <div class="itemContentTitle">
-                  孙坦-新一代知识服务系统 的技术走势与中国策略
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="cInfo">
-        <table>
-          <thead>
-            <tr>
-              <th>缴款方式</th>
-              <th>内容</th>
-              <th>截至时间</th>
-              <th>备注</th>
-            </tr>
-          </thead>
-        </table>
-        <div class="tableContent">
-          <div>免费</div>
-          <div>7月19日17点（周日）前报名参会</div>
-          <div>7月19日17点</div>
-          <div>
-            <div>会议直播链接将于7月20日发送至报名 邮箱及手机中</div>
-          </div>
-        </div>
-      </div>
-      <div class="CFoot">
-        <div class="CFootbox">
-          <img class="icon" src="../img/people.png" />
-          <div>联系人：郑继国，佟彤</div>
-        </div>
-        <div class="CFootbox">
-          <img class="icon" src="../img/phone.png" />
-          <div>联系电话：010-58882061，010-58882323</div>
-        </div>
-        <div class="CFootbox">
-          <img class="icon" src="../img/email.png" />
-          <div>邮箱：service2@nstl.gov.cn</div>
-        </div>
-      </div>
-    </div>
-    <footer class="footer">
-      <div class="link">
-        <span>友情链接：</span>
-        <a href="#">中科院文献情报中心 </a>
-        <a href="#">NSTL国家图书科技文献中心 </a>
-        <a href="#">中国科学院 </a>
-        <a href="#">中科院文献情报中心 </a>
-      </div>
-      <div class="footer-wrap">
-        <div>
-          <div>
-             <p><img src="../img/plate.png" style="width: 26px;height: 22px;margin-right: 13px"> 关于平台</p>
-            <p>运营单位: 中国科学院文献情报中心</p>
-            <p>技术支持: 中科院文献情报中心信息系统部</p>
-            <p>北京中科文情方略科技有限公司</p>
-          </div>
-          <div>
-          
-           <p style="font-size: 16px"> <img src="../img/tel.png" style="width: 24px;height: 20px;margin-right: 13px"> 联系我们</p>
-            <p>电话:010-82628382</p>
-            <p>地址:北京市中关村北四环西路33号</p>
-          </div>
-          <div>
-            <p>版权公告</p>
-            <p>使用协议</p>
-            <p>隐私声明</p>
-            <p>使用反馈</p>
-          </div>
-          <div
-            style="
-              width: 1px;
-              background: #747575;
-              height: 82px;
-              margin-top: 30px;
-            "
-          ></div>
-          <div style="text-align: center;">
-            <img
-              src="../img/QRcode1@2x.png"
-              style="width: 85px; height: 85px;"
-            />
-            <p>扫码下载APP</p>
-          </div>
-          <div style="text-align: center;">
-            <img
-              src="../img/QRcode2@2x.png"
-              style="width: 85px; height: 85px;"
-            />
-            <p>官方微信</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
-  <script src="../js/lib/jquery/jquery.min.js"></script>
-  <script src="../js/lib/layui/layui.js"></script>
-  <script src="../js/lib/swiper/swiper.js"></script>
-  <script>
-    window.onload = function () {
-      var swiper = new Swiper(".swiper-container", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-      $(".leftIcon").click(function (e) {
-        console.log(123);
-      });
-      $(".rightIcon").click(function (e) {
-        console.log(321);
-      });
-      $(".teacherCard").click(function (e) {
-        $(this).addClass("active").siblings().removeClass("active");
-      });
-      $(".item").click(function (e) {
-        $(this).addClass("active").siblings().removeClass("active");
-        $(this).find(".itemContent").show();
-        $(this).siblings().find(".itemContent").hide();
-      });
-      layui.use("layer", function () {
-        var layer = layui.layer;
-        $(".cJoin").on("click", function () {
-          layer.open({
-            type: 2,
-            maxmin: true,
-            title: [
-              "报名信息",
-              "font-size:18px;background:#029AC0;text-align:center;color:#ffffff",
-            ],
-            area: ["700px", "700px"],
-            shadeClose: false, //点击遮罩关闭
-            content: ["./join.html", "no"],
-          });
-        });
-      });
-    };
-  </script>
+					<div class="login">
+						<img src="../img/user.png" />
+						<span>某某某</span>
+						<a href="#">退出</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="cTop">
+			<div class="cBanner">
+				<div class="cJoin">报名参加</div>
+			</div>
+		</div>
+		<div class="cCenter">
+			<div class="cTitle ctless">
+				<div class="point"></div>
+				<div class="font">课程师资</div>
+				<div class="point"></div>
+			</div>
+			<div class=" cTeacher">
+				<div class="cTeacherList">
+					<div class=" swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="teacherCard">
+									<div class="leftBox">
+										<img class="avatar" src="../img/avatar.png" />
+										<div class="name">孙坦</div>
+										<div class="position">副院长</div>
+									</div>
+									<div class="rightBox">
+										<div class="company">
+											中国农业科学院
+										</div>
+										<div class="introduction">
+											长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="teacherCard">
+									<div class="leftBox">
+										<img class="avatar" src="../img/avatar.png" />
+										<div class="name">孙坦</div>
+										<div class="position">副院长</div>
+									</div>
+									<div class="rightBox">
+										<div class="company">
+											中国农业科学院
+										</div>
+										<div class="introduction">
+											长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="teacherCard">
+									<div class="leftBox">
+										<img class="avatar" src="../img/avatar.png" />
+										<div class="name">孙坦</div>
+										<div class="position">副院长</div>
+									</div>
+									<div class="rightBox">
+										<div class="company">
+											中国农业科学院
+										</div>
+										<div class="introduction">
+											长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="teacherCard">
+									<div class="leftBox">
+										<img class="avatar" src="../img/avatar.png" />
+										<div class="name">孙坦</div>
+										<div class="position">副院长</div>
+									</div>
+									<div class="rightBox">
+										<div class="company">
+											中国农业科学院
+										</div>
+										<div class="introduction">
+											长期从事数字信息描述与组织研究，近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，发表学术论长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支长期从事数字信息描述与组织研究，近年来主持国家科技支
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next leftIcon"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+			<div class="cTitle cless">
+				<div class="point"></div>
+				<div class="font">课程安排</div>
+				<div class="point"></div>
+			</div>
+			<div class="schedule">
+				<div class="itemBox">
+					<div class="item active">
+						<div class="itemTop">
+							<div class="itemLeft">
+								<img class="itemIcon" src="../img/star.png" />
+								<div class="itemTitle">开幕式</div>
+							</div>
+							<div class="itemRight">
+								主持人：吴波尔（国家科技图书文献中心，副主任）
+							</div>
+						</div>
+						<div class="itemContent">
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemTop">
+							<div class="itemLeft">
+								<img class="itemIcon" src="../img/star.png" />
+								<div class="itemTitle">第一节：会议报告</div>
+							</div>
+							<div class="itemRight">
+								主持人：吴波尔（国家科技图书文献中心，副主任）
+							</div>
+						</div>
+						<div class="itemContent" style="display: none;">
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemTop">
+							<div class="itemLeft">
+								<img class="itemIcon" src="../img/star.png" />
+								<div class="itemTitle">第二节：会议报告</div>
+							</div>
+							<div class="itemRight">
+								主持人：袁伟（中国科学信息研究所，总工程师）
+							</div>
+						</div>
+						<div class="itemContent" style="display: none;">
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemTop">
+							<div class="itemLeft">
+								<img class="itemIcon" src="../img/star.png" />
+								<div class="itemTitle">第三节：会议报告</div>
+							</div>
+							<div class="itemRight">
+								主持人：吴波尔（国家科技图书文献中心，副主任）
+							</div>
+						</div>
+						<div class="itemContent" style="display: none;">
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemTop">
+							<div class="itemLeft">
+								<img class="itemIcon" src="../img/star.png" />
+								<div class="itemTitle">第四节：会议报告</div>
+							</div>
+							<div class="itemRight">
+								主持人：吴波尔（国家科技图书文献中心，副主任）
+							</div>
+						</div>
+						<div class="itemContent" style="display: none;">
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemTop">
+							<div class="itemLeft">
+								<img class="itemIcon" src="../img/star.png" />
+								<div class="itemTitle">闭幕式：机构知识库未来展望</div>
+							</div>
+							<div class="itemRight">
+								主持人：靳茜（国家科技图书文献中心，信息服务部主任）
+							</div>
+						</div>
+						<div class="itemContent" style="display: none;">
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+							<div class="itemContentBox">
+								<img class="itemContentImg" src="../img/itemImg.png" />
+								<div class="itemContentTitle">
+									孙坦-新一代知识服务系统 的技术走势与中国策略
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cInfo">
+				<table>
+					<thead>
+						<tr>
+							<th>缴款方式</th>
+							<th>内容</th>
+							<th>截至时间</th>
+							<th>备注</th>
+						</tr>
+					</thead>
+				</table>
+				<div class="tableContent">
+					<div>免费</div>
+					<div>7月19日17点（周日）前报名参会</div>
+					<div>7月19日17点</div>
+					<div>
+						<div>会议直播链接将于7月20日发送至报名 邮箱及手机中</div>
+					</div>
+				</div>
+			</div>
+			<div class="CFoot">
+				<div class="CFootbox">
+					<img class="icon" src="../img/people.png" />
+					<div>联系人：郑继国，佟彤</div>
+				</div>
+				<div class="CFootbox">
+					<img class="icon" src="../img/phone.png" />
+					<div>联系电话：010-58882061，010-58882323</div>
+				</div>
+				<div class="CFootbox">
+					<img class="icon" src="../img/email.png" />
+					<div>邮箱：service2@nstl.gov.cn</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="link">
+				<span>友情链接：</span>
+				<a href="#">中科院文献情报中心 </a>
+				<a href="#">NSTL国家图书科技文献中心 </a>
+				<a href="#">中国科学院 </a>
+				<a href="#">中科院文献情报中心 </a>
+			</div>
+			<div class="footer-wrap">
+				<div>
+					<div>
+						<h4><img src="../img/plate.png"> 关于平台</h4>
+						<ul>
+							<li>运营单位: 中国科学院文献情报中心</li>
+							<li>技术支持: 中科院文献情报中心信息系统部</li>
+							<li>北京中科文情方略科技有限公司</li>
+						</ul>
+					</div>
+					<div>
+						<h4> <img src="../img/tel.png"> 联系我们</h4>
+						<ul>
+							<li>电话:010-82628382</li>
+							<li>地址:北京市中关村北四环西路33号</li>
+						</ul>
+					</div>
+					<div class="hidden">
+						<ul>
+							<li><a href="#">版权公告</a></li>
+							<li><a href="#">使用协议</a></li>
+							<li><a href="#">隐私声明</a></li>
+							<li><a href="#">使用反馈</a></li>
+						</ul>
+					</div>
+					<div class=" line"></div>
+					<div style="text-align: center;" class="code">
+						<img src="../img/QRcode1@2x.png" style="width: 85px; height: 85px;" />
+						<p>扫码下载APP</p>
+					</div>
+					<div style="text-align: center;" class="code">
+						<img src="../img/QRcode2@2x.png" style="width: 85px; height: 85px;" />
+						<p>官方微信</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="../js/lib/jquery/jquery.min.js"></script>
+	<script src="../js/lib/layui/layui.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/lib/swiper/swiper.js"></script>
+	<script>
+		window.onload = function() {
+			var swiper = new Swiper(".swiper-container", {
+				slidesPerView: 3,
+				spaceBetween: 0,
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+				breakpoints: {
+					640: {
+						slidesPerView: 1,
+						spaceBetween: 0,
+					},
+				}
+			});
+			$(".leftIcon").click(function(e) {
+				console.log(123);
+			});
+			$(".rightIcon").click(function(e) {
+				console.log(321);
+			});
+			$(".teacherCard").click(function(e) {
+				$(this).addClass("active").siblings().removeClass("active");
+			});
+			$(".item").click(function(e) {
+				$(this).addClass("active").siblings().removeClass("active");
+				$(this).find(".itemContent").show();
+				$(this).siblings().find(".itemContent").hide();
+			});
+			layui.use("layer", function() {
+				var layer = layui.layer;
+				$(".cJoin").on("click", function() {
+					layer.open({
+						type: 2,
+						maxmin: true,
+						title: [
+							"报名信息",
+							"font-size:18px;background:#029AC0;text-align:center;color:#ffffff",
+						],
+						area: ["700px", "700px"],
+						shadeClose: false, //点击遮罩关闭
+						content: ["./join.html", "no"],
+					});
+				});
+			});
+		};
+	</script>
 </html>

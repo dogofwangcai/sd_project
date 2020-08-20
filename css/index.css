@@ -121,9 +121,40 @@ font-weight:bold;
   display: flex;
   justify-content: space-between;
 }
-.footer .footer-wrap p {
+.footer .footer-wrap p,.footer .footer-wrap h4 {
   margin-bottom: 10px;
+  
 }
-.footer .footer-wrap p img{
+.footer .footer-wrap h4 {
+	font-size: 16px;
+}
+.footer .footer-wrap h4 img{
   vertical-align: middle;
+  width: 22px;
+  margin-right: 5px;
+}
+.footer .footer-wrap .line{
+	width: 1px;
+	background: #747575;
+	height: 82px;
+	margin-top: 30px;
+}
+.footer li{
+	line-height: 30px;
+}
+.footer li a{
+	color: #fff;
+}
+
+@media (max-width:768px) {
+	.header{
+		height: auto;
+	}
+	.header-wrap,.tab-wrap .content{
+		width: 100%;
+	}
+	.teacher-wrap .content,.footer .footer-wrap > div{
+		width: 100%;
+		display: block;
+	}
 }

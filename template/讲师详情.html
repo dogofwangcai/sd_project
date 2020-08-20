@@ -1,342 +1,313 @@
 <!DOCTYPE html>
-<html> 
-  <head>
-    <meta charset="utf-8">
-    <title>讲师详情</title>
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
-    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="../css/teacher.css" />
-    <link rel="stylesheet" type="text/css" href="../css/tab.css" />
-    <script
-      type="text/javascript"
-      src="../js/lib/jquery/jquery.min.js"
-    ></script>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-wrap">
-        <div class="header-left">
-          <img src="../img/LOGO @2x.png" class="logo1" />
-        </div>
-        <div class="header-right">
-          <ul>
-            <li>
-              <a href="#">首页</a>
-            </li>
-            <li>
-              <a href="#">培训活动</a>
-            </li>
-            <li>
-              <a href="#">会议活动</a>
-            </li>
-            <li>
-              <a href="#">名优讲师</a>
-            </li>
-            <li>
-              <a href="#">合作机构</a>
-            </li>
-            <li>
-              <a href="#">关于我们</a>
-            </li>
-          </ul>
-          <div class="search-wrap">
-            <input placeholder="请输入" type="text" name="" />
-            <img src="../img/search.png" />
-          </div>
-          <!-- <div class="unlogin">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>讲师详情</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/teacher.css" />
+		<link rel="stylesheet" type="text/css" href="../css/tab.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mobile.css" />
+		<script type="text/javascript" src="../js/lib/jquery/jquery.min.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-wrap">
+				<span class="m_nav"></span>
+				<div class="header-left">
+					<img src="../img/LOGO @2x.png" class="logo1" />
+				</div>
+				<div class="header-right">
+					<ul>
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">培训活动</a>
+						</li>
+						<li>
+							<a href="#">会议活动</a>
+						</li>
+						<li>
+							<a href="#">名优讲师</a>
+						</li>
+						<li>
+							<a href="#">合作机构</a>
+						</li>
+						<li>
+							<a href="#">关于我们</a>
+						</li>
+					</ul>
+					<div class="search-wrap">
+						<input placeholder="请输入" type="text" name="" />
+						<img src="../img/search.png" />
+					</div>
+					<!-- <div class="unlogin">
 					<a href="#">登录</a>
 				</div> -->
-          <div class="login">
-            <img src="../img/user.png" />
-            <span>某某某</span>
-            <a href="#">退出</a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <section class="body">
-      <section class="teacher-wrap">
-        <div class="content">
-          <div class="left">
-            <img src="../img/test.png" />
-            <a href="#">查看学术名片</a>
-          </div>
-          <div class="middle">
-            <div class="title">
-              <span>孙坦</span>
-              <span>副院长</span>
-            </div>
-            <div class="comment">
-              <span>中国农业科学院</span>
-              <div>
-                <span>
-                  <img
-                    src="../img/history.png"
-                    style="width: 20px; height: 13px;"
-                  />
-                  233
-                </span>
-                <span>
-                  <img
-                    src="../img/unthumbs.png"
-                    style="width: 16px; height: 16px;"
-                    id="thumbs"
-                  />
-                  点赞
-                </span>
-                <span>
-                  <img
-                    src="../img/collect.png"
-                    style="width: 16px; height: 18px;"
-                    id="collect"
-                  />
-                  收藏
-                </span>
-                <span>
-                  <img
-                    src="../img/share.png"
-                    style="width: 18px; height: 17px;"
-                  />
-                  分享
-                </span>
-              </div>
-            </div>
-            <div class="detail">
-              长期从事数字信息描述与组织研究，
-              近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，
-              发表学术论文80余篇，主编、参编著作7部。2005年荣获国务院政府特殊津贴，
-              2014年被评为“全国优秀科技工作者”，
-              2016年入选中国农业科学院青年英才计划，2018年入选中国农业科学院农科英才领军人才C类。
-            </div>
-          </div>
-          <div class="right">
-            <div>
-              <div class="item">
-                <div>93</div>
-                <span>论文</span>
-              </div>
-              <div class="item">
-                <div>93</div>
-                <span>专属</span>
-              </div>
-              <div class="item">
-                <div>93</div>
-                <span>项目</span>
-              </div>
-            </div>
-            <div>
-              <div class="item">
-                <div>93</div>
-                <span>专利</span>
-              </div>
-              <div class="item">
-                <div>93</div>
-                <span>H指数</span>
-              </div>
-              <div class="item">
-                <div>93</div>
-                <span>G指数</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+					<div class="login">
+						<img src="../img/user.png" />
+						<span>某某某</span>
+						<a href="#">退出</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="body">
+			<section class="teacher-wrap">
+				<div class="content">
+					<div class="left">
+						<img src="../img/test.png" />
+						<a href="#">查看学术名片</a>
+					</div>
+					<div class="middle">
+						<div class="title">
+							<span>孙坦</span>
+							<span>副院长</span>
+						</div>
+						<div class="comment">
+							<span>中国农业科学院</span>
+							<div>
+								<span>
+									<img src="../img/history.png" style="width: 20px; height: 13px;" />
+									233
+								</span>
+								<span>
+									<img src="../img/unthumbs.png" style="width: 16px; height: 16px;" id="thumbs" />
+									点赞
+								</span>
+								<span>
+									<img src="../img/collect.png" style="width: 16px; height: 18px;" id="collect" />
+									收藏
+								</span>
+								<span>
+									<img src="../img/share.png" style="width: 18px; height: 17px;" />
+									分享
+								</span>
+							</div>
+						</div>
+						<div class="detail">
+							长期从事数字信息描述与组织研究，
+							近年来主持国家科技支撑计划重点项目等近10项国家及省部级研究项目，
+							发表学术论文80余篇，主编、参编著作7部。2005年荣获国务院政府特殊津贴，
+							2014年被评为“全国优秀科技工作者”，
+							2016年入选中国农业科学院青年英才计划，2018年入选中国农业科学院农科英才领军人才C类。
+						</div>
+					</div>
+					<div class="right">
+						<div>
+							<div class="item">
+								<div>93</div>
+								<span>论文</span>
+							</div>
+							<div class="item">
+								<div>93</div>
+								<span>专属</span>
+							</div>
+							<div class="item">
+								<div>93</div>
+								<span>项目</span>
+							</div>
+						</div>
+						<div>
+							<div class="item">
+								<div>93</div>
+								<span>专利</span>
+							</div>
+							<div class="item">
+								<div>93</div>
+								<span>H指数</span>
+							</div>
+							<div class="item">
+								<div>93</div>
+								<span>G指数</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      <section class="tab-wrap">
-        <div class="content">
-          <div class="tab-header">
-            <div class="active">
-              他的课程
-            </div>
-            <div>
-              他的文献
-            </div>
-          </div>
-          <div class="tab-content">
-            <div class="box div_show">
-              <div class="tab2">
-                <div class="item">
-                  <div class="postimg">
-                    <a href="#">
-                      <img src="../img/test.png" />
-                    </a>
-                  </div>
-                  <div class="intro">
-                    <div class="title">
-                      <a href="#">科学数据管理与应用实践—以生物多样性...</a>
-                    </div>
-                    <div class="anthor">
-                      <span>某某某</span>
-                      <span>2010/10/30</span>
-                    </div>
-                    <div class="detail">
-                      为了发挥标准和专利信息对人工智能产业发展决策的支撑，开展面向科研院所及相关从业人员的标准和知识产权培训，课程邀请标准和专利导航
-                      为了发挥标准和专利信息对人工智能产业发展决策的支撑，开展面向科研院所及相关从业人员的标准和知识产权培训，课程邀请标准和专利导航
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="postimg">
-                    <a href="#">
-                      <img src="../img/test.png" />
-                    </a>
-                  </div>
-                  <div class="intro">
-                    <div class="title">
-                      <a href="#">科学数据管理与应用实践—以生物多样性...</a>
-                    </div>
-                    <div class="anthor">
-                      <span>某某某</span>
-                      <span>2010/10/30</span>
-                    </div>
-                    <div class="detail">
-                      为了发挥标准和专利信息对人工智能产业发展决策的支撑，开展面向科研院所及相关从业人员的标准和知识产权培训，课程邀请标准和专利导航
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="postimg">
-                    <a href="#">
-                      <img src="../img/test.png" />
-                    </a>
-                  </div>
-                  <div class="intro">
-                    <div class="title">
-                      <a href="#">科学数据管理与应用实践—以生物多样性...</a>
-                    </div>
-                    <div class="anthor">
-                      <span>某某某</span>
-                      <span>2010/10/30</span>
-                    </div>
-                    <div class="detail">
-                      为了发挥标准和专利信息对人工智能产业发展决策的支撑，开展面向科研院所及相关从业人员的标准和知识产权培训，课程邀请标准和专利导航
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="box">
-              <div class="tab1">
-                <div class="item">
-                  <a href="#" class="title"
-                    >国际科学仪器发展报告（2014-2015）</a
-                  >
-                  <div class="people">
-                    <img src="../img/peoples.png" />
-                    <a href="#">某某某</a>
-                    ,
-                    <a href="#">某某某</a>
-                  </div>
-                  <div class="intro">
-                    国际科学仪器发展报告（2014-2015）由国家科技图书文献中心与中国科学院文献情报中心组织编写。本书对美国、德国、日本、英国等创新型国家近期的科学仪器发展战略规划、科学仪器项目资助详情以及国际知名仪器展会上的新产品与新技术发展趋势进行了较为系统的调研和梳理，以期为各级决策部门、各级领导干部、科研用户以及社会公众了解国际科学仪器发展现状及态势提供信息参考依据。
-                    <a href="#" style="color: rgba(2, 154, 192, 1);"
-                      >了解更多&gt;&gt;</a
-                    >
-                  </div>
-                  <div class="date">
-                    2016-01
-                  </div>
-                </div>
-                <div class="item">
-                  <a href="#" class="title"
-                    >国际科学仪器发展报告（2014-2015）</a
-                  >
-                  <div class="people">
-                    <img src="../img/peoples.png" />
-                    <a href="#">某某某</a>
-                    ,
-                    <a href="#">某某某</a>
-                  </div>
-                  <div class="intro">
-                    国际科学仪器发展报告（2014-2015）由国家科技图书文献中心与中国科学院文献情报中心组织编写。本书对美国、德国、日本、英国等创新型国家近期的科学仪器发展战略规划、科学仪器项目资助详情以及国际知名仪器展会上的新产品与新技术发展趋势进行了较为系统的调研和梳理，以期为各级决策部门、各级领导干部、科研用户以及社会公众了解国际科学仪器发展现状及态势提供信息参考依据。
-                    <a href="#" style="color: rgba(2, 154, 192, 1);"
-                      >了解更多&gt;&gt;</a
-                    >
-                  </div>
-                  <div class="date">
-                    2016-01
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-    <footer class="footer">
-      <div class="link">
-        <span>友情链接：</span>
-        <a href="#">中科院文献情报中心 </a>
-        <a href="#">NSTL国家图书科技文献中心 </a>
-        <a href="#">中国科学院 </a>
-        <a href="#">中科院文献情报中心 </a>
-      </div>
-      <div class="footer-wrap">
-        <div>
-          <div>
-             <p><img src="../img/plate.png" style="width: 26px;height: 22px;margin-right: 13px"> 关于平台</p>
-          
-            <p>运营单位: 中国科学院文献情报中心</p>
-            <p>技术支持: 中科院文献情报中心信息系统部</p>
-            <p>北京中科文情方略科技有限公司</p>
-          </div>
-          <div>
-              <p style="font-size: 16px"> <img src="../img/tel.png" style="width: 24px;height: 20px;margin-right: 13px"> 联系我们</p>
-            <p>电话:010-82628382</p>
-            <p>地址:北京市中关村北四环西路33号</p>
-          </div>
-          <div>
-            <p>版权公告</p>
-            <p>使用协议</p>
-            <p>隐私声明</p>
-            <p>使用反馈</p>
-          </div>
-          <div
-            style="
-              width: 1px;
-              background: #747575;
-              height: 82px;
-              margin-top: 30px;
-            "
-          ></div>
-          <div style="text-align: center;">
-            <img
-              src="../img/QRcode1@2x.png"
-              style="width: 85px; height: 85px;"
-            />
-            <p>扫码下载APP</p>
-          </div>
-          <div style="text-align: center;">
-            <img
-              src="../img/QRcode2@2x.png"
-              style="width: 85px; height: 85px;"
-            />
-            <p>官方微信</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script type="text/javascript">
-      window.onload = function () {
-        $(".tab-header")
-          .find("div")
-          .click(function (e) {
-            $(this).addClass("active");
-            $(this).siblings().removeClass("active");
+			<section class="tab-wrap">
+				<div class="content">
+					<div class="tab-header">
+						<div class="active">
+							他的课程
+						</div>
+						<div>
+							他的文献
+						</div>
+					</div>
+					<div class="tab-content">
+						<div class="box div_show">
+							<div class="tab2">
+								<div class="item">
+									<div class="postimg">
+										<a href="#">
+											<img src="../img/test.png" />
+										</a>
+									</div>
+									<div class="intro">
+										<div class="title">
+											<a href="#">科学数据管理与应用实践—以生物多样性...</a>
+										</div>
+										<div class="anthor">
+											<span>某某某</span>
+											<span>2010/10/30</span>
+										</div>
+										<div class="detail">
+											为了发挥标准和专利信息对人工智能产业发展决策的支撑，开展面向科研院所及相关从业人员的标准和知识产权培训，课程邀请标准和专利导航
+											为了发挥标准和专利信息对人工智能产业发展决策的支撑，开展面向科研院所及相关从业人员的标准和知识产权培训，课程邀请标准和专利导航
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="postimg">
+										<a href="#">
+											<img src="../img/test.png" />
+										</a>
+									</div>
+									<div class="intro">
+										<div class="title">
+											<a href="#">科学数据管理与应用实践—以生物多样性...</a>
+										</div>
+										<div class="anthor">
+											<span>某某某</span>
+											<span>2010/10/30</span>
+										</div>
+										<div class="detail">
+											为了发挥标准和专利信息对人工智能产业发展决策的支撑，开展面向科研院所及相关从业人员的标准和知识产权培训，课程邀请标准和专利导航
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="postimg">
+										<a href="#">
+											<img src="../img/test.png" />
+										</a>
+									</div>
+									<div class="intro">
+										<div class="title">
+											<a href="#">科学数据管理与应用实践—以生物多样性...</a>
+										</div>
+										<div class="anthor">
+											<span>某某某</span>
+											<span>2010/10/30</span>
+										</div>
+										<div class="detail">
+											为了发挥标准和专利信息对人工智能产业发展决策的支撑，开展面向科研院所及相关从业人员的标准和知识产权培训，课程邀请标准和专利导航
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="tab1">
+								<div class="item">
+									<a href="#" class="title">国际科学仪器发展报告（2014-2015）</a>
+									<div class="people">
+										<img src="../img/peoples.png" />
+										<a href="#">某某某</a>
+										,
+										<a href="#">某某某</a>
+									</div>
+									<div class="intro">
+										国际科学仪器发展报告（2014-2015）由国家科技图书文献中心与中国科学院文献情报中心组织编写。本书对美国、德国、日本、英国等创新型国家近期的科学仪器发展战略规划、科学仪器项目资助详情以及国际知名仪器展会上的新产品与新技术发展趋势进行了较为系统的调研和梳理，以期为各级决策部门、各级领导干部、科研用户以及社会公众了解国际科学仪器发展现状及态势提供信息参考依据。
+										<a href="#" style="color: rgba(2, 154, 192, 1);">了解更多&gt;&gt;</a>
+									</div>
+									<div class="date">
+										2016-01
+									</div>
+								</div>
+								<div class="item">
+									<a href="#" class="title">国际科学仪器发展报告（2014-2015）</a>
+									<div class="people">
+										<img src="../img/peoples.png" />
+										<a href="#">某某某</a>
+										,
+										<a href="#">某某某</a>
+									</div>
+									<div class="intro">
+										国际科学仪器发展报告（2014-2015）由国家科技图书文献中心与中国科学院文献情报中心组织编写。本书对美国、德国、日本、英国等创新型国家近期的科学仪器发展战略规划、科学仪器项目资助详情以及国际知名仪器展会上的新产品与新技术发展趋势进行了较为系统的调研和梳理，以期为各级决策部门、各级领导干部、科研用户以及社会公众了解国际科学仪器发展现状及态势提供信息参考依据。
+										<a href="#" style="color: rgba(2, 154, 192, 1);">了解更多&gt;&gt;</a>
+									</div>
+									<div class="date">
+										2016-01
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+		<footer class="footer">
+			<div class="link">
+				<span>友情链接：</span>
+				<a href="#">中科院文献情报中心 </a>
+				<a href="#">NSTL国家图书科技文献中心 </a>
+				<a href="#">中国科学院 </a>
+				<a href="#">中科院文献情报中心 </a>
+			</div>
+			<div class="footer-wrap">
+				<div>
+					<div>
+						<h4><img src="../img/plate.png"> 关于平台</h4>
+						<ul>
+							<li>运营单位: 中国科学院文献情报中心</li>
+							<li>技术支持: 中科院文献情报中心信息系统部</li>
+							<li>北京中科文情方略科技有限公司</li>
+						</ul>
+					</div>
+					<div>
+						<h4> <img src="../img/tel.png"> 联系我们</h4>
+						<ul>
+							<li>电话:010-82628382</li>
+							<li>地址:北京市中关村北四环西路33号</li>
+						</ul>
+					</div>
+					<div class="hidden">
+						<ul>
+							<li><a href="#">版权公告</a></li>
+							<li><a href="#">使用协议</a></li>
+							<li><a href="#">隐私声明</a></li>
+							<li><a href="#">使用反馈</a></li>
+						</ul>
+					</div>
+					<div class=" line"></div>
+					<div style="text-align: center;" class="code">
+						<img src="../img/QRcode1@2x.png" style="width: 85px; height: 85px;" />
+						<p>扫码下载APP</p>
+					</div>
+					<div style="text-align: center;" class="code">
+						<img src="../img/QRcode2@2x.png" style="width: 85px; height: 85px;" />
+						<p>官方微信</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="../js/common.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				$(".tab-header")
+					.find("div")
+					.click(function(e) {
+						$(this).addClass("active");
+						$(this).siblings().removeClass("active");
 
-            $(".tab-content>div").eq($(this).index()).addClass("div_show");
-            $(".tab-content>div")
-              .eq($(this).index())
-              .siblings()
-              .removeClass("div_show");
-          });
-           $("#thumbs").on("click",function(){
-          $(this).attr('src','../img/thumbs.png')
-        })
-        $("#collect").on("click",function(){
-          $(this).attr('src','../img/starCommet.png')
-        })
-      };
-    </script>
-  </body>
+						$(".tab-content>div").eq($(this).index()).addClass("div_show");
+						$(".tab-content>div")
+							.eq($(this).index())
+							.siblings()
+							.removeClass("div_show");
+					});
+				$("#thumbs").on("click", function() {
+					$(this).attr('src', '../img/thumbs.png')
+				})
+				$("#collect").on("click", function() {
+					$(this).attr('src', '../img/starCommet.png')
+				})
+			};
+		</script>
+	</body>
 </html>
