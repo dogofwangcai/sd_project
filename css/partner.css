@@ -1,0 +1,58 @@
+.banner {
+  width: 100%;
+  margin-bottom: 33px;
+  text-align: center;
+}
+.banner img {
+  width: auto;
+  height: auto;
+}
+.patnerContent {
+  width: 1180px;
+  overflow: hidden;
+  margin: 0px auto 24px auto;
+}
+.patnerTitle {
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(5, 125, 155, 1);
+  line-height: 24px;
+  height: 24px;
+  margin-bottom: 20px;
+}
+.patnerUl {
+  display: block;
+  font-size: 0px;
+  letter-spacing: 0px;
+}
+.patnerUl li {
+  display: inline-block;
+  width: 356px;
+  margin: 0 55px 0 0;
+  vertical-align: top;
+  text-align: center;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(132, 147, 153, 1);
+  line-height: 24px;
+  margin-bottom: 26px;
+}
+.patnerUl li:nth-child(3n + 3) {
+  margin-right: 0px;
+}
+.patnerUl li .img {
+  width: 356px;
+  height: 88px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 10px 0px rgba(105, 116, 122, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.patnerUl li img {
+  width: 356px;
+  height: auto;
+  display: block;
+}
